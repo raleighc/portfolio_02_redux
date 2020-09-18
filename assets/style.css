@@ -1,0 +1,85 @@
+/* site wide styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url("./images/ignasi_pattern_s.png");
+}
+  
+h1 {
+  background: #4bad98;
+}
+/* site wide navbar styles */
+.nav-link{
+    text-align: right;
+}
+
+.titlefonts {
+  font-family: "Source Serif Pro", serif;
+  font-size: 25px;
+}
+/* site wide content styles */
+h2 {
+  font-family: "Source Serif Pro", serif;
+  font-size: 40px;
+  color: #4bad98;
+  padding: 5px 15px 5px 15px;
+}
+
+.main-content {
+  margin: 75px 20px 75px 20px;
+  background-color: white;
+  padding: 30px;
+}
+/* about me page styles */
+#portrait {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  width: 50%;
+  max-width: 180px;
+}
+#linked {
+  height: 50px;
+  width: 50px;
+}
+
+#ghub {
+  height: 55px;
+  width: 55px;
+}
+/* portfolio page styles */
+.port-images{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+/* contact page styles */
+.square{
+    border-radius: 0 !important;
+}
+
+.form-group{
+    margin: 0px 20px 20px 20px;
+}
+
+#submitbutton {
+    background-color: #4bad98;
+    border-color: #4bad98;
+    padding: 15px 30px 15px 30px;
+  }
+/* site wide footer styles */
+.footer {
+  position: fixed;
+  padding: 12px 0px 0px 0px;
+  border-top: 7px solid #4bad98;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #666666;
+  color: #6c757d;
+  text-align: center;
+}
