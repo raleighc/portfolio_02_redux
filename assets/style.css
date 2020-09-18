@@ -5,26 +5,30 @@
 }
 
 body {
-    background-image: url("./images/ignasi_pattern_s.png");
+    background-image: url("./images/backgound_gradient.png");
+    background-size: cover;
 }
   
-h1 {
-  background: #4bad98;
-}
 /* site wide navbar styles */
-.nav-link{
+.navbar-default {
+  background-color: #1f1b1c;
+}
+
+.nav-link {
     text-align: right;
 }
 
 .titlefonts {
-  font-family: "Source Serif Pro", serif;
-  font-size: 25px;
+  color:  #d5d6d6;
+  padding-top: 15px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 20px;
 }
 /* site wide content styles */
 h2 {
-  font-family: "Source Serif Pro", serif;
-  font-size: 40px;
-  color: #4bad98;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 30px;
+  color: #1f1b1c;
   padding: 5px 15px 5px 15px;
 }
 
@@ -67,19 +71,19 @@ h2 {
 }
 
 #submitbutton {
-    background-color: #4bad98;
-    border-color: #4bad98;
+    background-color: #1f1b1c;
+    border-color: #1f1b1c;
     padding: 15px 30px 15px 30px;
   }
 /* site wide footer styles */
 .footer {
   position: fixed;
   padding: 12px 0px 0px 0px;
-  border-top: 7px solid #4bad98;
+  border-top: 2px solid #d5d6d6;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #666666;
+  background-color: #1f1b1c;
   color: #6c757d;
   text-align: center;
 }
