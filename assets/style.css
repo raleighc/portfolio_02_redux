@@ -12,9 +12,11 @@ body {
 /* site wide navbar styles */
 .navbar-default {
   background-color: #1f1b1c;
+  border-bottom: 2px solid #d5d6d6;
 }
 
 .nav-link {
+    font-family: 'Tajawal', sans-serif;
     text-align: right;
 }
 
@@ -69,6 +71,9 @@ h2 {
 .form-group{
     margin: 0px 20px 20px 20px;
 }
+label{
+  font-family: 'Tajawal', sans-serif;
+}
 
 #submitbutton {
     background-color: #1f1b1c;
@@ -78,11 +83,12 @@ h2 {
 /* site wide footer styles */
 .footer {
   position: fixed;
-  padding: 12px 0px 0px 0px;
+  padding: 14px 0px 0px 0px;
   border-top: 2px solid #d5d6d6;
   left: 0;
   bottom: 0;
   width: 100%;
+  font-family: 'Tajawal', sans-serif;
   background-color: #1f1b1c;
   color: #6c757d;
   text-align: center;
